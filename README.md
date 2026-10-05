@@ -11,6 +11,12 @@ The bigger goal is to support *deliberative democracy*: neighbors and the groups
 
 This folder holds a **clickable prototype** of the app: a mockup you can tap through to see how it would look and feel. It isn't the real app. It uses made-up sample data and isn't connected to any server, so nothing you type or click gets saved or sent anywhere. Click around freely.
 
+## Live Demo
+
+You can view the live prototype directly in your browser via GitHub Pages:
+👉 **[Launch Neighborly Prototype](https://dlc-17.github.io/neighborly/)**
+
+
 ## What's in this folder
 
 | File | What it is |
