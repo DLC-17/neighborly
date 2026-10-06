@@ -21,8 +21,29 @@ You can view the live prototype directly in your browser via GitHub Pages:
 
 | File | What it is |
 | --- | --- |
-| `Neighborly Prototype.html` | The prototype. The whole app is packed into this one file. |
+| `Neighborly Prototype.html` | The original clickable prototype. Packed into one file. |
+| `client/` | Fullstack web & mobile frontend (React 18, Vite, Tailwind CSS, Leaflet, Capacitor). |
+| `server/` | Fullstack backend API & WebSockets (Node.js, Express, Socket.io, Haversine geospatial engine). |
+| `shared/` | Shared TypeScript domain models and schemas. |
 | `README.md` | This guide. |
+
+## Running the Fullstack Application
+
+To run the live fullstack web application locally:
+
+```bash
+# 1. Install dependencies across workspaces
+npm install
+
+# 2. Run the integration test suite
+npm test
+
+# 3. Start both the backend API server and frontend client
+npm run dev
+```
+
+- Frontend Web App: `http://localhost:5173`
+- Backend API & WebSockets: `http://localhost:3001`
 
 ## How to open the prototype
 
